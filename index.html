@@ -259,8 +259,8 @@ function load_binserver9020(){
 }
 
 function load_goldhenbeta(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading GoldHEN v2.4b16.2 Please wait!!!</h1>";
-LoadedMSG="GoldHEN v2.4b16.2 Loaded";
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading GoldHEN v2.4b18 Please wait!!!</h1>";
+LoadedMSG="GoldHEN v2.4b18 Loaded";
 PLfile = "pl_goldhenbeta.bin";
 loadPayloadData();
 }
@@ -269,6 +269,14 @@ function load_goldhen23(){
 msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading GoldHEN v2.3 Please wait!!!</h1>";
 LoadedMSG="GoldHEN v2.3 Loaded";
 PLfile = "pl_goldhen23.bin";
+loadPayloadData();
+}
+
+
+function load_goldhenlite(){
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading GoldHEN Lite v1.0 Please wait!!!</h1>";
+LoadedMSG="GoldHEN Lite v1.0 Loaded";
+PLfile = "pl_goldhenlite.bin";
 loadPayloadData();
 }
 
@@ -496,8 +504,8 @@ loadPayloadData();
 }
 
 function load_ps4debug(){
-msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading CTN Ps4Debug v1.0.15. Please wait!</h1>";
-LoadedMSG="CTN Ps4Debug v1.0.15 Loaded";
+msgs.innerHTML="<h1 style='font-size:25px;text-align:center;'>Loading CTN Ps4Debug v1.1.16. Please wait!</h1>";
+LoadedMSG="CTN Ps4Debug v1.1.16 Loaded";
 PLfile = "pl_ps4debug.bin";
 loadPayloadData();
 }
@@ -706,8 +714,9 @@ loadPayloadDataBz2();
       <button class="btnkme" onMouseOver="msgs.innerHTML='Receives .Bin payloads on port 9021 via NetCat'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit Host PSFree Auto'" onclick="load_binserver9021(); return false">Binloader-9021</button>
       <br>
       <div style=font-size:16px>GOLDHEN</div>
-      <button class="btnkme" onMouseOver="msgs.innerHTML='GoldHEN v2.4b16.2 (Beta) - By SiSTRo'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit Host GoldHEN Collection'" onclick="load_goldhenbeta(); return false">GoldHEN v2.4b16.2 (Latest)</button>
+      <button class="btnkme" onMouseOver="msgs.innerHTML='GoldHEN v2.4b18 (Beta) - By SiSTRo'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit Host GoldHEN Collection'" onclick="load_goldhenbeta(); return false">GoldHEN v2.4b18 (Latest)</button>
       <button class="btnkme" onMouseOver="msgs.innerHTML='GoldHEN v2.3 (Latest) - By SiSTRo'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit Host PSFree Auto'" onclick="load_goldhen23(); return false">GoldHEN v2.3</button>
+      <button class="btnkme" onMouseOver="msgs.innerHTML='GoldHEN Lite v1.0 - By SiSTRo'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit Host PSFree Auto'" onclick="load_goldhenlite(); return false">GoldHEN Lite v1.0</button>
       <br>
       <div style=font-size:16px>PAYLOADS</div>
     <button class="btnkme" onMouseOver="msgs.innerHTML='Modded Version of App Dumper to Backup PKG files to External HDD  / 9.00 Mod by Kameleon'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit Host PSFree Auto'" onclick="load_pkg_backup(); return false">PKG-BackUp v1.1</button>
@@ -723,7 +732,7 @@ loadPayloadDataBz2();
     <button class="btnkme" onMouseOver="msgs.innerHTML='History-Blocker - v2.0 Original Version By Stooged / 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit Host PSFree Auto'" onclick="load_historyblocker(); return false">History-Blocker</button>
     <button class="btnkme" onMouseOver="msgs.innerHTML='Kernel-Dumper - v1.0 Original Version By Eversion / 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit Host PSFree Auto'" onclick="load_kerneldumper(); return false">Kernel-Dumper</button>
     <button class="btnkme" onMouseOver="msgs.innerHTML='PSN Account Offline Web Activator - By Sleirsgoevy'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit Host PSFree Auto'" onclick="load_webactivator(); return false">Web-Offline-Activator</button>
-    <button class="btnkme" onMouseOver="msgs.innerHTML='Ps4Debug v1.0.15 - By CTN123'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit Host PSFree Auto'" onclick="load_ps4debug(); return false">Ps4Debug v1.0.15</button>
+    <button class="btnkme" onMouseOver="msgs.innerHTML='Ps4Debug v1.1.16 - By CTN123'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit Host PSFree Auto'" onclick="load_ps4debug(); return false">Ps4Debug v1.1.16</button>
     <button class="btnkme" onMouseOver="msgs.innerHTML='DB-Backup v1.0 - By Leeful / 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit Host PSFree Auto'" onclick="load_backup(); return false">DB-Backup</button>
     <br><br>
     <button class="btnkme" onMouseOver="msgs.innerHTML='App-2-Usb - Original Version By Stooged / 9.00 Port By Al Azif'"; onmouseout="msgs.innerHTML='Kameleon 900FW Exploit Host PSFree Auto'" onclick="load_app2usb(); return false">App-2-Usb</button>
